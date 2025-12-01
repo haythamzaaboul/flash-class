@@ -1,5 +1,5 @@
 // server/loaders/mysqlLoader.js
-import { dbPool } from '../DB/db.js';
+import { dbPool } from '../database/db.js';
 
 export async function initMySql() {
   try {
